@@ -130,4 +130,6 @@ fun! php_cs_fixer#fix(path, dry_run)
             endif
         endif
     endif
+    " syntax highlighting
+    syntax enable
 endfun
